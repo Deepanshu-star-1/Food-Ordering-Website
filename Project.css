@@ -1,0 +1,415 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    height: 100px;
+    background-color: whitesmoke ;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    width: 100%;
+}
+
+.logo a img{
+    height: 85px;
+    width: 140px;
+    cursor:pointer;
+    object-fit: cover;
+    padding-left: 31px;
+    border-radius: 35%;
+    margin-top: 6px;
+    
+
+}
+
+.logo a img:hover{
+    transform: scale(1.1);
+}
+
+/* img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%
+} */
+/* @keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */
+
+.offer i {
+    margin: 20px 50px ;
+    font-size: 20px;
+    color: black;
+}
+
+.offer i:hover {
+    color: coral;
+}
+button.mode-toggle:hover{
+    transform: scale(1.06); 
+}
+
+
+
+button.b3 {
+    margin: 15px 50px 100px 10px;
+    font-size: 14px;
+    color: black;
+    border: none;
+    background-color: whitesmoke;
+    padding-bottom: 0px;
+     
+}
+button.b4{
+    margin: 15px 50px 100px 10px;
+    font-size: 14px;
+    color: black;
+    border: none;
+    background-color: whitesmoke;
+    padding-bottom: 0px;
+     
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    
+}
+
+#front-img {
+    height: 450px;
+    width: 96%;
+    margin: 10px;
+}
+
+.text1{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.text2{
+    position: absolute;
+    top: 46%;
+    left: 8%;
+    color: black;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.container .btn{
+    position:absolute;
+    top:60%;
+    left: 5%;
+    font-size: 20px;
+    background-color: black;
+    color: whitesmoke;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.container .btn:hover{
+    color: coral
+}
+
+.menu-heading{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.menu-head{
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.item-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.item-card{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#item-image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+
+#item-image img:hover{
+    transform: scale(1.08);
+}
+
+#item-name{
+    /* margin: 0 0  20px 35px; */
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+#item-name a{
+    text-decoration: none;
+    color: black;
+}
+
+#item-name a:hover{
+    color: crimson;
+}
+
+.brand-heading{
+    margin-top: 10px;
+  cursor: pointer;
+}
+
+.brand-head{
+    margin-left: 40px;
+    font-size: 30px;  
+}
+
+.brand-list{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.brand-card{
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#brand-image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#brand-image img:hover{
+    transform: scale(1.06);
+}
+
+#brand-name{
+    /* margin: 0 0  20px 35px; */
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#brand-name a{
+    text-decoration: none;
+    color: black;
+}
+
+#brand-name a:hover{
+    color: crimson;
+}
+
+.footer{
+    margin: 30px;
+    background-color:whitesmoke;
+    padding: 20px 60px;
+}
+
+.footer-head p {
+    text-align: centre;
+    font-size:25px;
+    font-weight: 800;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.footer-section div{
+    width: 200px;
+}
+
+.footer-section h3{
+    font-weight: lighter;
+    color:rgb(22,22,22);
+    white-space:nowrap;
+}
+
+.footer-section a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    text-decoration:none;
+    color: gray;
+    font-size:0.9rem;
+}
+ @media (max-width: 1024px) {
+    .item-card {
+        flex: 0 1 calc(50% - 40px);
+    }
+
+    .brand-card {
+        flex: 0 1 calc(50% - 40px);
+    }
+
+    .text1, .text2 {
+        font-size: 30px; 
+    }
+
+    .container .btn {
+        width: 100%; 
+    }
+} 
+
+ @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .offer i {
+        margin: 10px 5px; 
+    }
+
+    .text1, .text2 {
+        font-size: 25px; 
+    }
+
+    #front-img {
+        height: 300px; 
+    }
+
+    .item-card {
+        flex: 0 1 100%; 
+    }
+
+    .brand-card {
+        flex: 0 1 100%; 
+    }
+
+    .footer-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .footer-section div {
+        margin: 10px 0;
+    }
+}
+/* Day Mode (default) */
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+footer {
+    background-color: whitesmoke;
+}
+
+.mode-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+}
+
+.mode-toggle:hover {
+    color: coral;
+}
+
+/* Night Mode */
+body.night-mode {
+    background-color: RGB(36,36,36);
+    color: white;
+}
+body.night-mode .offer i{
+    color: coral
+}
+body.night-mode button.b3 {
+     background-color: RGB(36,36,36) ;
+}
+body.night-mode button.b4 {
+    background-color: RGB(36,36,36) ;
+}
+body.night-mode header {
+    background-color: RGB(36,36,36);
+}
+
+body.night-mode footer {
+    background-color: RGB(36,36,36);
+}
+
+body.night-mode .mode-toggle {
+    color: white;
+}
+
+body.night-mode .mode-toggle:hover {
+    color: coral;
+}
+
+body.night-mode .container .btn {
+    background-color: RGB(36,36,36);
+    color: whitesmoke;
+}
+
+body.night-mode .container .btn:hover {
+    color: coral;
+}
+
+body.night-mode .item-card, 
+body.night-mode .brand-card {
+    background-color: RGB(36,36,36);
+    border: 1px solid RGB(36,36,36);
+}
+
+body.night-mode #item-name a, 
+body.night-mode #brand-name a {
+    color: white;
+}
+
+body.night-mode #item-name a:hover, 
+body.night-mode #brand-name a:hover {
+    color: coral;
+}
+/* Footer links in night mode */
+body.night-mode .footer{
+    color: RGB(36,36,36)
+}
+body.night-mode .footer-head p{
+    color: RGB(36,36,36)
+}
+body.night-mode .footer-section div{
+    color: RGB(36,36,36)
+}
+body.night-mode .footer-section a {
+    color: RGB(36,36,36);
+}
+
+body.night-mode .footer-section a:hover {
+    color: RGB(36,36,36);
+}

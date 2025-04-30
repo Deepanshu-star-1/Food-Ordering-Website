@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="OTP.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    body {
+      background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210403/pngtree-simple-white-flat-vectors-with-diagonal-cuts-decorative-backdrops-for-your-image_597614.jpg');
+    }
+</style>
+
+<body>
+    <div class="form-container">
+        <form action="">
+            <h1>OTP</h1>
+            <div class="input-box">
+                <label for="Number"><strong>OTP</strong></label><br>
+                <input type="tel" placeholder="OTP" id="otpp">
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <br>
+
+
+            <button type="button" class="btn" onclick="validateOTP()">Login</button>
+
+        </form>
+    </div>
+    <script>
+        function validateOTP() {
+            const otppInput = document.getElementById('otpp');
+            const otppValue = otppInput.value.trim();
+
+            if (otppValue === '') {
+                alert('Please enter the OTP.');
+                return;
+            }
+
+            if (otppValue.length !== 4) {
+                alert('Please enter a valid 4-digit OTP.');
+                return;
+            }
+
+            if (!/^\d+$/.test(otppValue)) {
+                alert('Please enter a valid integer for the OTP.');
+                return;
+            }
+            location.href = 'home.html';
+        }
+    </script>
+</body>
+
+</html>

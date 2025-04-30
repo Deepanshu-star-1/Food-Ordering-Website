@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger page</title>
+    <link rel="stylesheet" href="Pizza.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://content.jdmagicbox.com/comp/karnal/v5/9999px184.x184.230911122934.i7v5/catalogue/food-home-karnal-sector-33-karnal-tiffin-services-m56z9xrzwm.jpg" alt="logo"></a>
+        </div>
+        <div class="search-location">
+            <label for="location"> <i class="fa fa-location"></i>
+            <input type="text" name="yourlocation" id="location" placeholder="Enter your location"></label>
+            <label for="Resturant"> <i class="fa fa-search"></i>
+            <input type="text" name="yourlocation" id="Resturant" placeholder="Enter your Resturant"></label>
+        </div>
+        <div class="offer">
+            <button class="b1" onclick="location.href='home.html'"><i class="fa fa-tags">Home</i></button>
+        <a href="#" onclick="offerLink()"><i class="fa fa-tags">Offers</i></a>
+        <button class="b3" onclick="location.href='signin.html'"><i class="fa fa-tags">Sign in</i></button>
+        <button class="b4" onclick="location.href='cart.html'"><i class="fa fa-tags">Cart</i></button>
+         </div>
+    </header>
+    <div class=" heading-line">
+        <div>
+            <div id="first-head">
+               <a href="explore.html"> <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png"></a>
+               <a id="p"  href="explore.html">Dining Out</a>
+            </div>
+        </div>
+        <div>
+            <div id="second-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"></a>
+               <a id="p"  href="#">Delivery</a>
+            </div>
+        </div>
+    </div>
+    <div class="button-items">
+        <button id="button-filter" onclick="location.href='home.html'"><i class="fa fa-exchange"></i>Back</button>
+        <button id="button-Pizza">Burger<i class="fa fa-close"></i> </button>
+        <!-- <button id="button-cuisions">cuisions <i class="fa fa-angle-down"></i> </button> -->
+    </div>
+    <div class="line-heading">
+        <p> Go to Hunting a Burger </p>
+    </div>
+    <div class="Pizza-list1">
+        <!-- Pizza list item 1 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/7b3/0b5c232b0fe710150dba69cf5d57d7b3.jpeg" alt="punjabi burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Big Punjabi Burger</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger Singh</a></div>
+                <div id="item-price"><a href="#">₹150 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">25 min</a></div>
+        </div>
+
+
+        <!-- Pizza list item 2 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/13c/3f7a166e59b67b2e008ab7dc0415813c.png" alt="Burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">McDonald's</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">3.9</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger,Fast Food,Beverages</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">22 min</a></div>
+        </div>
+
+
+        <!-- Pizza list item 3  -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/038/9e5c3d7c539c67c0cc3b02af761c5038.jpeg" alt="burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Lord Petrick Burger</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger,Coffee,Cafe,Shakes</a></div>
+                <div id="item-price"><a href="#">₹150 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">22 min</a></div>
+        </div>
+    </div>
+        <!-- Pizza list item 4 -->
+    <div class="Pizza-list2">
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/0c6/07e27c70d4baf6c87ea3cdfb660cf0c6.png" alt="buger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Burgerama</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.3</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger, Fast Food</a></div>
+                <div id="item-price"><a href="#">₹150 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">29 min</a></div>
+        </div> <br> <br>
+
+
+        <!-- Pizza list item 5 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/01c/c13b152416d1ebd6edd72f0c877d701c.jpeg" alt="buger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Burger King</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger,Fast Food,Beverages</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">29 min</a></div>
+        </div>
+
+
+
+        <!-- Pizza list item 6 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/dcb/e4d3f7cc3f174eda8564017c43c31dcb.jpg" alt="Burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Hot Million Express</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Pizza,fast food,Chinese</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">42 min</a></div>
+        </div>
+    </div>
+
+        <!-- Pizza list item 7 -->
+    <div class="Pizza-list3">
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/017/8824610521847d3cdaba501f1b567017.jpeg" alt="Burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">KFC</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger,Fast Food,Rool</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">18 min</a></div>
+        </div>
+
+
+        <!-- Pizza list item 8 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/8ea/587b44082ef2a05c335b1dcb2fb828ea.jpg" alt="Burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Burger Poiny 70</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">3.9</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Burger,sandwich,wraps</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">32 min</a></div>
+        </div>
+
+
+        <!-- Pizza list item 9 -->
+        <div class="item-layout">
+            <div id="item-image"><a href="#"><img src="https://b.zmtcdn.com/data/dish_photos/85d/afe9096778a80464e5fe9e31ee4fa85d.jpeg" alt="Burger"></a></div>
+            <div class="img-just-bottom">
+                <div id="item-name"><a href="#">Domino's Burger</a></div>
+                <div id="item-rating"><a href="#"><i class=" fa fa-star">4.2</i></a></div>
+            </div>
+            <div class="rating-bottom" >
+                <div id="item-info"><a href="#">Pizza,Burger,Garlic Bread</a></div>
+                <div id="item-price"><a href="#">₹200 for one</a></div>
+            </div>
+            <div id="item-delivery"><a href="#">21 min</a></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-head"><p>Food@home</p></div>
+        <div class="footer-section">
+            <div>
+                <h4>company</h4>
+                <a href="who we are.html">Who we are</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+                <!-- <a href="inv">Investors Relations</a> -->
+                <a href="Report-fraud.html">Report-fraud</a>
+            </div>
+            <div>
+                <h4>For Foodies</h4>
+                <a href="Code of Conduct.html">Code of conduct</a>
+                <!-- <a href="comm">Community</a> -->
+                <a href="blog.html">Blogger Help</a>
+                <!-- <a href="#">Mobile Apps</a> -->
+           
+            </div>
+            <div>
+                <h4>For Resturant</h4>
+                <a href="partner with us.html">Partner with Us</a>
+                <!-- <a href="#">Apps for you</a> -->
+          
+            
+            </div>
+            <div>
+                  <h4>Learn More</h4>
+            <a href="term and condition page.html">Terms and Conditions</a>
+            <a href="privacy.html">Privacy policy</a>
+            <a href="security.html">Security</a>
+            </div>
+        </div>
+        <script>function offerLink(){
+            alert("Today's Offer:20% off on all items!");
+        }
+            </script>
+
+</body>
+</html>

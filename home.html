@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food-Ordering Website</title>
+    <link rel="stylesheet" href="Project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+    <!-- Header Part Line -->
+    <header>
+        <div class="logo">
+            <a href="home.html"><img src="Foods-at-Home-Logo.jpg" alt="logo"></a>
+        </div>
+        <div class="offer">
+          <!-- <i class="fa fa-search">Search</i> -->
+           <!-- Add this in the header or where you want the toggle -->
+           <button class="mode-toggle" onclick="toggleMode()">🌙</button>
+           <a class="a1" href="#" onclick="offerLink()"><i class="fa fa-tags">Offers</i></a>
+           <button class="b3" onclick="location.href='signin.html'"><i class="fa fa-solid fa-user">Sign in</i></button>
+           <button class="b4" onclick="location.href='cart.html'"><i class="fa fa-tags">Cart</i></button>
+        </div>
+    </header>
+    <!-- Container Part line-->
+    <div class="container">
+        <img id="front-img" src="https://images.unsplash.com/photo-1494859802809-d069c3b71a8a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Image">
+        <div class="text1">Enjoy Our</div>
+        <div class="text2">Delicious Food</div>
+        <button class="btn" onclick="location.href='explore.html'">Explore</button>
+    </div>
+
+    <!-- This is Menu Item Start-->
+    <div class="menu-heading">
+        <h2 class="menu-head">Inspiration for your first order </h2>
+    </div>
+    <div class="item-list">
+        <div class="item-card" >
+            <a  id=item-image href="pizza page.html"><img src="https://www.superhealthykids.com/wp-content/uploads/2021/10/best-veggie-pizza-featured-image-square-2.jpg" alt="Pizza-image" ></a>
+            <div id="item-name"><a href="pizza page.html">Pizza</a>    </div>
+        </div>
+        <div class="item-card" >
+            <a  id=item-image href="burger page.html"><img src="https://pickyeaterblog.com/wp-content/uploads/2021/04/Pumpkin-Burgers-with-Black-Beans-IMG_1507.jpg" alt="Pizza-image" ></a>
+            <div id="item-name"><a href="burger page.html">Burger</a>    </div>
+        </div>
+        <div class="item-card" >
+            <a  id=item-image href="cake.html"><img src="https://mrbrownbakery.com/image/images/GJ7uCwGiteTF24HTWBclkziVTdhpQeZWH23MvQfq.jpeg?p=full.jpg" alt="Pizza-image" ></a>
+            <div id="item-name"><a href="cake.html">Cake</a>    </div>
+        </div>
+        <div class="item-card" >
+            <a  id=item-image href="north indian page.html"><img src="https://img-global.cpcdn.com/recipes/4e6759e54cbfedc2/1200x630cq70/photo.jpg" alt="north indian thali" ></a>
+            <div id="item-name" class="north-indian"><a href="north indian page.html">North Indian</a>    </div>
+        </div>
+        <div class="item-card" >
+            <a  id=item-image href="chaat page.html"><img src="https://www.tasteofhome.com/wp-content/uploads/2019/08/group-bombay-chat-food-includes-golgappapanipuri-shutterstock_1422412163.jpg" alt="Pizza-image" ></a>
+            <div id="item-name"><a href="chaat page.html">chaat</a>    </div>
+        </div>
+        <div class="item-card" >
+            <a  id=item-image href="biryani page.html"><img src="https://www.madhuseverydayindian.com/wp-content/uploads/2022/11/easy-vegetable-biryani.jpg" alt="Biryani-image" ></a>
+            <div id="item-name"><a href="biryani page.html">Biryani</a>    </div>
+        </div>
+    </div>
+
+
+    <div class="brand-heading">  
+        <h2 class="brand-head">Top brands for you</h2>
+    </div>
+    <!-- This is Brand Item Start-->
+    <div class="brand-list">
+        <div class="brand-card">
+                <a id=brand-image href="subway.html"><img src="https://i.pinimg.com/736x/4b/eb/2a/4beb2a37a5810f9eacc37e3c6234889c.jpg" alt="subway image"></a>
+                <div id="brand-name"><a href="subway.html">Subway</a></div>
+        </div>
+            <div class="brand-card">
+                <a id="brand-image" href="Lapinoze.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuPlgCwpc27LrzR2QFfL_CPAK-JQIgi_VQKw&s" alt="la pino's "></a>
+                <div id="brand-name"><a href="Lapinoze.html">La Pino's Pizza</a></div>
+            </div>
+            <div class="brand-card">
+                <a id="brand-image"  href="burger king page.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--1MJsy7_DWpEDHBVdc8L7Vn-neqF-M_MyA&s.jpg" alt="burger king"></a>
+                <div id="brand-name"><a href="burger king page.html">Burger King</a></div>
+            </div>
+            <div class="brand-card">
+                <a id="brand-image"  href="kfc.html"><img src="https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png.jpg" alt="kfc"></a>
+                <div id="brand-name"><a href="kfc.html">KFC</a></div>
+            </div>
+            <div class="brand-card">
+                <a id="brand-image"  href="roll express.html"><img src="https://th.bing.com/th/id/R.756797dea6db7ebdba8460d734e49d82?rik=lT4YStn5yHeCbg&riu=http%3a%2f%2fspicyworld.in%2frecipeimages%2fbhuna-chicken-roll.jpg&ehk=fqUtcbt6Rd2j2BjhyAP7qj8l1ZDUPDNF%2fg4Zx96rZHU%3d&risl=&pid=ImgRaw&r=0" alt="roll Express"></a>
+                <div id="brand-name"><a href="roll express.html">Roll Express</a></div>
+            </div>
+
+            <div class="brand-card">
+                <a id="brand-image"  href="starbucks.html"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" alt="starbucks"></a>
+                <div id="brand-name" ><a href="starbucks.html">Starbucks Coffee</a></div>
+            </div>
+            <div class="brand-card">
+                <a id="brand-image"  href="ghar ki rasoi.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD9Xc8yN36pBoGisjpH7tsGb9v3gk63kt8AA&s" alt="ghar ki rasoi"></a>
+                <div id="brand-name"><a href="ghar ki rasoi.html">Ghar Ki Rasoi</a></div>  
+            </div>
+        </div> 
+      <!-- This is Footer Part Start-->
+    <div class="footer">
+      <!-- This is Footer Part haed line Start-->
+            <div class="footer-head"><p>Food@home</p></div>
+        <div class="footer-section">
+            <div>
+                <h4>company</h4>
+                <a href="who we are.html">Who we are</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Report-fraud.html">Report-fraud</a>
+            </div>
+            <div>
+                <h4>For Foodies</h4>
+                <a href="Code of Conduct.html">Code of conduct</a>
+                <!-- <a href="">Community</a> -->
+                <a href="blog.html">Blogger Help</a>
+                <!-- <a href="#">Mobile Apps</a> -->
+            </div>
+            <div>
+                <h4>For Resturant</h4>
+                <a href="partner with us.html">Partner with Us</a>
+                <!-- <a href="#">Apps for you</a> -->
+                
+            </div>
+            <div>
+                <h4>Learn More</h4>
+                <a href="term and condition page.html">Terms and Conditions</a>
+                <a href="privacy.html">Privacy policy</a>
+                <a href="security.html">Security</a>
+            </div>
+        </div>
+    </div>
+    <script>function offerLink(){
+        alert("Today's Offer:20% off on all items!");
+    }
+        </script>
+    <script>
+        // Function to toggle between day and night mode
+        function toggleMode() {
+            const body = document.body;
+            body.classList.toggle("night-mode");
+    
+            // Change button icon based on mode
+            const modeButton = document.querySelector(".mode-toggle");
+            if (body.classList.contains("night-mode")) {
+                modeButton.textContent = "🌞";  // Switch to sun icon for day mode
+            } else {
+                modeButton.textContent = "🌙";  // Switch to moon icon for night mode
+            }
+        }
+    </script>
+    
+</body>
+</html>

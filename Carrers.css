@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+header {
+    background-color: #ff4757; /* Bright red color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.job-listings {
+    margin-bottom: 40px;
+}
+
+.jobs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between job cards */
+}
+
+.job {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1 1 calc(45% - 20px); /* 2 items per row with space */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.job:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #ff4757; /* Same red color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e84118; /* Darker red */
+}
+
+.application-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.application-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form label {
+    margin: 10px 0 5px;
+}
+
+.application-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.application-form input:focus {
+    border-color: #ff4757; /* Highlight border on focus */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff4757; /* Same red color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

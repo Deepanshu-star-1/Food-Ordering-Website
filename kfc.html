@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KFC</title>
+    <link rel="stylesheet" href="burger king page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://content.jdmagicbox.com/comp/karnal/v5/9999px184.x184.230911122934.i7v5/catalogue/food-home-karnal-sector-33-karnal-tiffin-services-m56z9xrzwm.jpg" alt="logo"></a>
+        </div>
+        <div class="search-location">
+            <label for="location"> <i class="fa fa-location"></i>
+            <input type="text" name="yourlocation" id="location" placeholder="Enter your location"></label>
+            <label for="Resturant"> <i class="fa fa-search"></i>
+            <input type="text" name="yourlocation" id="Resturant" placeholder="Enter your Resturant or a Dish"></label>
+        </div>
+        <div class="offer">
+            <button class="b1" onclick="location.href='home.html'"><i class="fa fa-tags">Home</i></button>
+            <a href="#" onclick="offerLink()"><i class="fa fa-tags">Offers</i></a>
+            <button class="b3" onclick="location.href='signin.html'"><i class="fa fa-tags">Sign in</i></button>
+            <button class="b4" onclick="location.href='cart.html'"><i class="fa fa-tags">Cart</i></button>
+    </header>
+    <!-- <div class=" heading-line">
+        <div>
+            <div id="first-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png"></a>
+               <a id="p"  href="#">Dining Out</a>
+            </div>
+        </div>
+        <div>
+            <div id="second-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"></a>
+               <a id="p"  href="#">Delivery</a>
+            </div>
+        </div>
+    </div>
+    <div class="button-items">
+        <button id="button-filter"><i class="fa fa-exchange"></i>Filter</button>
+        <button id="button-Pizza">Pizza <i class="fa fa-close"></i> </button>
+        <button id="button-cuisions">cuisions <i class="fa fa-angle-down"></i> </button>
+    </div> -->
+    <div>
+        <p class="pt1">KFC</p>
+        <div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">3.0</p>
+                <p class="pt3">Dinning Ratings</p>
+            </div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">3.9</p>
+                <p class="pt3">Dilivery Ratings</p>.
+
+            </div>
+            <p class="pt2">Special Pizzas, Fast Food, Wraps, Beverages</p>
+        </div>
+        <div class="d2">
+           
+                <img class="imd" src="https://th.bing.com/th?id=OSK.fDpE40ahoGrfqc-3egNE9eEK45Wf-d4I11cp4xlVcis&w=224&h=200&c=7&rs=1&o=6&dpr=1.3&pid=SANGAM"
+                    alt="">
+
+                <img class="imd2" src="https://th.bing.com/th?id=OIP.Db_Tb2HHRMChf0qMt56dUwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                    alt="">
+            </div>
+        </div>
+        <div>
+            <button class="bt1" onclick="location.href='kfc-veg.html'">Pure Veg</button>
+            <button class="bt2" onclick="location.href='kfc-nveg.html'">Non Veg</button>
+        </div>
+        <div>
+            <div class="button-container">
+                <button class="but" >
+                    <div class="d1">
+                        <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K815.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Caribbean Spicy Zinger Burger</p>
+                        <div> 
+                            <p class="p4"> ₹219.05</p> 
+                            <p class="p2">Relish the Caribbean spicy zinger</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+            
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002412.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Caribbean Spicy Zinger Burger & Popcorn Meal</p>
+                        <div> 
+                            <p class="p4"> ₹439.05</p> 
+                            <p class="p2">Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+ 
+
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002415.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Mexican Zinger Pro Burger & Popcorn Meal</p>
+                        <div> 
+                            <p class="p4"> ₹459.05 </p> 
+                            <p class="p2">New Zinger Pro burger with Medium Popcorn & Pepsi 475ml at a deal price</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+ 
+
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-K540.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Indian Tandoori Zinger Burger</p>
+                        <div> 
+                            <p class="p4"> ₹208.57</p> 
+                            <p class="p2">Chicken zinger with aádelicious tandoori sauce & cheese slice</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+ 
+
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002167.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">All Chicken Box</p>
+                        <div> 
+                            <p class="p4"> ₹189.52</p> 
+                            <p class="p2">A Box with your favorites! Get 1 pc Hot & Crispy, 2 Hot Wings & 1 Chicken Strip at a deal price</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+ 
+
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00001003.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Zinger Tandoori Box</p>
+                        <div> 
+                            <p class="p4"> ₹313.33</p> 
+                            <p class="p2">A deal for Tandoori lovers : Get 1 Tandoori Zinger, 2 Hot Wings, 1 Veg Patty & 1 Pepsi 475ml</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+ 
+
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002169.jpg?ver=55.44"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Stay Home Bucket</p>
+                        <div> 
+                            <p class="p4"> ₹788.57</p> 
+                            <p class="p2">Save 21% on 4 Hot & Crispy, 4 Wings, 6 Peri Strips & 2 dips (20gm each)</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+        
+                    <img class="im1"
+                        src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00000638.jpg?ver=55.44"
+                        alt="">
+                </div>
+                <div>
+                    <p class="p1">Ultimate Savings Bucket</p>
+                    <div> 
+                        <p class="p4"> ₹699.05</p> 
+                        <p class="p2">Savings of 35% on signature bucket of 4pc Hot & crispy chicken, 6 Pc Wings, 4 Chicken Peri Peri Boneless</p>
+                    </div>
+                </div>
+    
+            </div>
+        </button>
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                    <img class="im1"
+                        src="https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/items/xl/D-PR00002162.jpg?ver=55.44"
+                        alt="">
+                </div>
+                <div>
+                    <p class="p1">Mingles Bucket Meal</p>
+                    <div> 
+                        <p class="p4"> ₹499.05</p> 
+                    </div>
+                </div>
+    
+            </div>
+        </button>
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+</body>
+
+</html>
+    <div class="footer">
+        <div class="footer-head"><p>Food@home</p></div>
+        <div class="footer-section">
+            <div>
+                <h4>company</h4>
+                <a href="who we are.html">Who we are</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+                <!-- <a href="#">Investors Relations</a> -->
+                <a href="Report-fraud.html">Report-fraud</a>
+            </div>
+            <div>
+                <h4>For Foodies</h4>
+                <a href="Code of Conduct.html">Code of conduct</a>
+                <!-- <a href="#">Community</a> -->
+                <a href="blog.html">Blogger Help</a>
+                <!-- <a href="#">Mobile Apps</a> -->
+           
+            </div>
+            <div>
+                <h4>For Resturant</h4>
+                <a href="partner with us.html">Partner with Us</a>
+                <!-- <a href="#">Apps for you</a> -->
+          
+            
+            </div>
+            <div>
+                  <h4>Learn More</h4>
+            <a href="term and condition page.html">Terms and Conditions</a>
+            <a href="privacy.html">Privacy policy</a>
+            <a href="security.html">Security</a>
+            </div>
+        </div>
+    <script>function offerLink(){
+        alert("today's offer:20% off on all items!");
+     } </script> 
+     <script src="lapinoze.js"></script>   
+</body>
+</html>

@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+/* .offer icon styles */
+.offer i {
+    margin: 15px 20px;
+    font-size: 14px;
+    color: black;
+}
+
+.offer i:hover {
+    color: coral;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+#front-img {
+    height: 450px;
+    width: 96%;
+    object-fit: cover; /* Ensures the image covers the area properly */
+}
+
+.text1, .text2 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.text1 {
+    top: 35%;
+    left: 5%;
+}
+
+.text2 {
+    top: 46%;
+    left: 8%;
+}
+
+.container .btn {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    font-size: 20px;
+    background-color: black;
+    color: whitesmoke;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.container .btn:hover {
+    color: coral;
+}
+
+.menu-heading {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menu-head {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto new lines */
+    justify-content: space-between;
+    margin: 20px; /* Added margin for spacing */
+}
+
+.item-card {
+    flex: 0 1 calc(33.33% - 40px); /* Three items per row with spacing */
+    margin: 20px; /* Margin between cards */
+}
+
+#item-image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#item-name {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#item-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand-heading {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.brand-head {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.brand-list {
+    display: flex;
+    flex-wrap: wrap; /* Allows brands to wrap onto new lines */
+    justify-content: space-between;
+    margin: 20px; /* Added margin for spacing */
+}
+
+.brand-card {
+    flex: 0 1 calc(33.33% - 40px); /* Three items per row with spacing */
+    margin: 20px; /* Margin between cards */
+}
+
+#brand-image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+#brand-name {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+}
+
+#brand-name a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    margin: 30px;
+    background-color: whitesmoke;
+    padding: 20px 60px;
+}
+
+.footer-head p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Allows footer items to wrap */
+}
+
+.footer-section div {
+    flex: 1 0 200px; /* Each section takes up equal space */
+}
+
+.footer-section h4 {
+    font-weight: lighter;
+    color: rgb(22, 22, 22);
+}
+
+.footer-section a {
+    display: inline-block;
+    margin-bottom: 7px;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .item-card {
+        flex: 0 1 calc(50% - 40px);
+    }
+
+    .brand-card {
+        flex: 0 1 calc(50% - 40px);
+    }
+
+    .text1, .text2 {
+        font-size: 30px; 
+    }
+
+    .container .btn {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .offer i {
+        margin: 10px 5px; 
+    }
+
+    .text1, .text2 {
+        font-size: 25px; 
+    }
+
+    #front-img {
+        height: 300px; 
+    }
+
+    .item-card {
+        flex: 0 1 100%; 
+    }
+
+    .brand-card {
+        flex: 0 1 100%; 
+    }
+
+    .footer-section {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .footer-section div {
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="burger king page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://content.jdmagicbox.com/comp/karnal/v5/9999px184.x184.230911122934.i7v5/catalogue/food-home-karnal-sector-33-karnal-tiffin-services-m56z9xrzwm.jpg" alt="logo"></a>
+        </div>
+        <div class="search-location">
+            <label for="location"> <i class="fa fa-location"></i>
+            <input type="text" name="yourlocation" id="location" placeholder="Enter your location"></label>
+            <label for="Resturant"> <i class="fa fa-search"></i>
+            <input type="text" name="yourlocation" id="Resturant" placeholder="Enter your Resturant or a Dish"></label>
+        </div>
+        <div class="offer">
+            <button class="b1" onclick="location.href='home.html'"><i class="fa fa-tags">Home</i></button>
+            <a href="#" onclick="offerLink()"><i class="fa fa-tags">Offers</i></a>
+            <button class="b3" onclick="location.href='signin.html'"><i class="fa fa-tags">Sign in</i></button>
+              <button class="b4" onclick="location.href='cart.html'"><i class="fa fa-tags">Cart</i></button>
+         </div>
+    </header>
+    <!-- <div class=" heading-line">
+        <div>
+            <div id="first-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png"></a>
+               <a id="p"  href="#">Dining Out</a>
+            </div>
+        </div>
+        <div>
+            <div id="second-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"></a>
+               <a id="p"  href="#">Delivery</a>
+            </div>
+        </div>
+    </div>
+    <div class="button-items">
+        <button id="button-filter"><i class="fa fa-exchange"></i>Filter</button>
+        <button id="button-Pizza">Pizza <i class="fa fa-close"></i> </button>
+        <button id="button-cuisions">cuisions <i class="fa fa-angle-down"></i> </button>
+    </div> -->
+    <div>
+        <p class="pt1">Burger King</p>
+        <div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">3.9</p>
+                <p class="pt3">Dinning Ratings</p>
+            </div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">4.3</p>
+                <p class="pt3">Dilivery Ratings</p>
+
+            </div>
+            <p class="pt2">Burger,Fast Food,Beverages</p>
+        </div>
+        <div class="d2">
+           
+                <img class="imd" src="https://b.zmtcdn.com/data/pictures/chains/5/122275/c8008523810583087401ff292c1763a3.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+                    alt="">
+
+                <img class="imd2" src="https://b.zmtcdn.com/data/pictures/chains/5/122275/32b17daab99d36aeb14554d9ecbbd253.jpg?fit=around|300:273&crop=300:273;*,*"
+                    alt="">
+            </div>
+        </div>
+        <div>
+            <button class="bt1">Pure Veg</button>
+            <button class="bt2">Non Veg</button>
+        </div>
+        <div>
+            <div class="button-container">
+                <button class="but" >
+                    <div class="d1">
+                        <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/8f5/8236d9861a55c0e7121f4914e7a198f5.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Whopper Jr Veg.</p>
+                        <div> 
+                            <p class="p4"> ₹149 </p> 
+                            <p class="p2">Our Signature Whopper with Crunchy Veg Patty, Onions, Lettuce, Tomatoes (Seasonal), Gherkins, Creamy And Smoky Sauces.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+            
+            
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/8a2/232c7e1b2b74dfc2851556a255e148a2.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">BK Chicken Burger</p>
+                        <div> 
+                            <p class="p4"> ₹149 </p> 
+                            <p class="p2">BK Chicken Patty, Lettuce, Tomato(Seasonal) & Our Signature Mayo Sauce.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+        
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/2ee/2cc495a50e4e7ace02f5bb2d43dd82ee.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">BK Veggie Burger</p>
+                        <div> 
+                            <p class="p4"> ₹139 </p> 
+                            <p class="p2">BK Veg Patty, Lettuce, Tomato(Seasonal) & Our Signature Mayo Sauce.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/0f7/5da31aa780335fa243bb527197ced0f7.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Crispy Veg Burger+BK Veg Pizza Puff</p>
+                        <div> 
+                            <p class="p4"> ₹129 </p> 
+                            <p class="p2"></p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/102/863b8f32d0621135eae85da7e5549102.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Veg Makhani Burst Burger+ Medium Peri Peri Fries</p>
+                        <div> 
+                            <p class="p4"> ₹224 </p> 
+                            <p class="p2">Veg Makhani Burst Burger+ Medium Peri Peri Fries
+
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/818/4a62b4fc9e806e1ff5e046f9d7a89818.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Chicken Whopper Jr Double Patty</p>
+                        <div> 
+                            <p class="p4"> ₹219 </p> 
+                            <p class="p2"></p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+    
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/993/635a3067995d10a6fc5d6a78a1b8c993.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Crispy Chicken + Crunchy Chicken Taco</p>
+                        <div> 
+                            <p class="p4"> ₹218 </p> 
+                            <p class="p2"></p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/cbc/2ece2c5f21d615e1bb12163a495bbcbc.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Chicken Whopper</p>
+                        <div> 
+                            <p class="p4"> ₹209 </p> 
+                            <p class="p2">Our Signature Whopper with Flame Grilled Chicken Patty, Onions, Lettuce, Tomatoes (Seasonal), Gherkins, Creamy And Smoky Sauces </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/24a/70151d484c116a7f487eb47c1254924a.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Mocha Cappuccino(small)</p>
+                        <div> 
+                            <p class="p4"> ₹199</p> 
+                            <p class="p2">Our Signature Bk Café© Coffee With Chocolate Flavour</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/740/a3212b7c777834ccf952bdba594c0740.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Classic Cold Coffee</p>
+                        <div> 
+                            <p class="p4"> ₹199 </p> 
+                            <p class="p2">Our signature BK Café Coffee ice blended with milk & cream</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+    
+ 
+
+<div class="cart-actions">
+    <button class="add-to-cart-btn">Add to Cart</button>
+</div>
+</div>
+
+
+</html>
+    <div class="footer">
+        <div class="footer-head"><p>Food@home</p></div>
+        <div class="footer-section">
+            <div>
+                <h4>company</h4>
+                <a href="who we are.html">Who we are</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+                <!-- <a href="">Investors Relations</a> -->
+                <a href="Report-fraud.html">Report-fraud</a>
+            </div>
+            <div>
+                <h4>For Foodies</h4>
+                <a href="Code of Conduct.html">Code of conduct</a>
+                <!-- <a href="">Community</a> -->
+                <a href="blog.html">Blogger Help</a>
+                <!-- <a href="#">Mobile Apps</a> -->
+           
+            </div>
+            <div>
+                <h4>For Resturant</h4>
+                <a href="partner with us.html">Partner with Us</a>
+                <!-- <a href="#">Apps for you</a> -->
+          
+            
+            </div>
+            <div>
+                  <h4>Learn More</h4>
+            <a href="term and condition page.html">Terms and Conditions</a>
+            <a href="privacy.html">Privacy policy</a>
+            <a href="security.html">Security</a>
+            </div>
+        </div>
+        <script>function offerLink(){
+            alert("Today's Offer:20% off on all items!");
+        }
+            </script>
+            <script src="lapinoze.js"></script>
+
+</body>
+</html>

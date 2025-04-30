@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Page</title>
+    <link rel="stylesheet" href="burger king page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+    <header>
+        <div class="logo">
+            <a href="#"><img src="https://content.jdmagicbox.com/comp/karnal/v5/9999px184.x184.230911122934.i7v5/catalogue/food-home-karnal-sector-33-karnal-tiffin-services-m56z9xrzwm.jpg" alt="logo"></a>
+        </div>
+        <div class="search-location">
+            <label for="location"> <i class="fa fa-location"></i>
+            <input type="text" name="yourlocation" id="location" placeholder="Enter your location"></label>
+            <label for="Resturant"> <i class="fa fa-search"></i>
+            <input type="text" name="yourlocation" id="Resturant" placeholder="Enter your Resturant"></label>
+        </div>
+        <div class="offer">
+            <button class="b1" onclick="location.href='home.html'"><i class="fa fa-tags">Home</i></button>
+            <a href="#" onclick="offerLink()"><i class="fa fa-tags">Offers</i></a>
+            <button class="b3" onclick="location.href='signin.html'"><i class="fa fa-tags">Sign in</i></button>
+              <button class="b4" onclick="location.href='cart.html'"><i class="fa fa-tags">Cart</i></button>
+         </div>
+    </header>
+    <!-- <div class=" heading-line">
+        <div>
+            <div id="first-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/30fa0a844f3ba82073e5f78c65c18b371616149662.png"></a>
+               <a id="p"  href="#">Dining Out</a>
+            </div>
+        </div>
+        <div>
+            <div id="second-head">
+               <a href="#"> <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png?output-format=webp"></a>
+               <a id="p"  href="#">Delivery</a>
+            </div>
+        </div>
+    </div>
+    <div class="button-items">
+        <button id="button-filter"><i class="fa fa-exchange"></i>Filter</button>
+        <button id="button-Pizza">Pizza <i class="fa fa-close"></i> </button>
+        <button id="button-cuisions">cuisions <i class="fa fa-angle-down"></i> </button>
+    </div> -->
+    <div>
+        <p class="pt1">Subway</p>
+        <div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">3.9</p>
+                <p class="pt3">Dinning Ratings</p>
+            </div>
+            <div class="d2">
+                <img class="imt2" src="https://cdn-icons-png.flaticon.com/128/10134/10134048.png" alt="">
+                <p class="pt4">4.1</p>
+                <p class="pt3">Dilivery Ratings</p>
+
+            </div>
+            <p class="pt2">Healthy Food, Salad, Fast Food, Wraps, Beverages</p>
+        </div>
+        <div class="d2">
+           
+                <img class="imd" src="https://b.zmtcdn.com/data/pictures/chains/5/120285/3679c0c7694e0c06c6d446a56046a95a.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*"
+                    alt="">
+
+                <img class="imd2" src="https://b.zmtcdn.com/data/pictures/chains/5/120285/4f26cafc1ede0acadb4e7ad5cabd255f.jpg?output-format=webp&fit=around|300:273&crop=300:273;*,*"
+                    alt="">
+            </div>
+        </div>
+        <div>
+            <button class="bt1">Pure Veg</button>
+            <button class="bt2">Non Veg</button>
+        </div>
+        
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+            
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/d59/2dd4ef47c6cce04589e38812222c0d59.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Potato Chilli Cheese</p>
+                        <div> 
+                            <p class="p4"> ₹289 </p> 
+                            <p class="p2">Hot toasted sub loaded with 1.5x potato patty and real mozz cheese, topped with mint mayo, onions and capsicum and cheese slice.</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div>
+            </button>
+            <div class="cart-actions">
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+            
+        <div class="button-container">
+            <button class="but" >
+                <div class="d1">
+                    <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/b14/cc951e3b7015c295e71d530c5fd5eb14.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Cheesy Paneer Tikka</p>
+                        <div> 
+                            <p class="p4"> ₹309 </p> 
+                            <p class="p2">Double the paneer, with real mozz cheese. Indulge in hot cheesy paneer melt loaded with paneer, tangy tandoori sauce, fresh veggies and cheese slice.</p>
+                        </div>
+                    </div>
+        
+                </div>
+                <div>
+            </button>
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/11a/5303979bb62160c10605ee8745db911a.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Cheesy Chicken Tikka</p>
+                        <div> 
+                            <p class="p4"> ₹339 </p> 
+                            <p class="p2">Double the chicken, with real mozz cheese. Indulge in hot cheesy chicken tikka sub loaded with chicken, tandoori sauce, fresh veggies and cheese.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/67e/6bd2c030328c21d09c0c1ba05290667e.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Cheesy American BBQ</p>
+                        <div> 
+                            <p class="p4"> ₹329 </p> 
+                            <p class="p2">Hot toasted sub loaded with 1.5x filling and real mozz cheese, topped with BBQ sauce, capsicum, onion, gherkins, eggless mayo and cheese slice.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/676/aef48c2bb2cb76588e792fd3ae61c676.jpeg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Cheesy Mexican</p>
+                        <div> 
+                            <p class="p4"> ₹309 </p> 
+                            <p class="p2">Hot and cheesy toasted sub with 1.5x chili bean patty, real mozz cheese, chipotle southwest sauce, tomato, capsicum, onion, olive, jalapeno and cheese slice.
+
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/0d2/828915cc237da8540d3b2563a1bd10d2.jpg?fit=around|130:130&crop=130:130;*,*"
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Paneer Tikka Sandwich</p>
+                        <div> 
+                            <p class="p4"> ₹233 </p> 
+                            <p class="p2">A tangy twist to your favourite cottage cheese cubes marinated in tandoori sauce for a spicy, smoky flavour combined with your choice of veggies and sauces, served on a freshly baked bread.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+    <div class="button-container">
+        <button class="but" >
+            <div class="d1">
+                <div class="conti">
+                        <img class="im1"
+                            src="https://b.zmtcdn.com/data/dish_photos/015/e3ad14ba5b640052ea6ee31751da6015.jpeg?fit=around|130:130&crop=130:130;*,*
+                            alt="">
+                    </div>
+                    <div>
+                        <p class="p1">Veg Shammi Salad</p>
+                        <div> 
+                            <p class="p4"> ₹299 </p> 
+                            <p class="p2">Experience authentic Indian flavours with the veg shammi kebab salad. A delicious kebab made of lentils & aromatic spices combined with veggies and your favourite dressing.</p>
+                        </div>
+                    </div>
+        
+                </div>
+            </button>
+        
+        <div class="cart-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+ 
+
+            
+ 
+
+    <div class="footer">
+        <div class="footer-head"><p>Food@home</p></div>
+        <div class="footer-section">
+            <div>
+                <h4>company</h4>
+                <a href="who we are.html">Who we are</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+                <!-- <a href="#">Investors Relations</a> -->
+                <a href="Report-fraud.html">Report-fraud</a>
+            </div>
+            <div>
+                <h4>For Foodies</h4>
+                <a href="Code of Conduct.html">Code of conduct</a>
+                <!-- <a href="com">Community</a> -->
+                <a href="blog.html">Blogger Help</a>
+                <!-- <a href="#">Mobile Apps</a> -->
+           
+            </div>
+            <div>
+                <h4>For Resturant</h4>
+                <a href="partner with us.html">Partner with Us</a>
+                <!-- <a href="#">Apps for you</a> -->
+          
+            
+            </div>
+            <div>
+                  <h4>Learn More</h4>
+            <a href="term and condition page.html">Terms and Conditions</a>
+            <a href="privacy.html">Privacy policy</a>
+            <a href="security.html">Security</a>
+            </div>
+        </div>
+        <script>function offerLink(){
+            alert("Today's Offer:20% off on all items!");
+        }
+            </script>
+            <script src="lapinoze.js"></script>
+
+</body>
+</html>
